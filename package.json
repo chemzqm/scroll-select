@@ -1,8 +1,8 @@
 {
-  "name": "component-scaffold",
+  "name": "scroll-select",
   "version": "0.0.1",
   "description": "",
-  "main": "./index.js",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/chemzqm/scaffold.git"
+    "url": "git+ssh://git@github.com/chemzqm/scroll-select.git"
   },
   "keywords": [],
   "author": "chemzqm@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chemzqm/scaffold/issues"
+    "url": "https://github.com/chemzqm/scroll-select/issues"
   },
-  "homepage": "https://github.com/chemzqm/scaffold#readme",
+  "homepage": "https://github.com/chemzqm/scroll-select#readme",
   "devDependencies": {
     "coveralls": "^2.11.4",
     "css-loader": "^0.23.0",
