@@ -2,6 +2,7 @@ var Emitter = require('emitter')
 var domify = require('domify')
 var _ = require('dom')
 var Iscroll = require('iscroll')
+var hasTouch = require('has-touch')
 
 /**
  * Init select with `el` and optional option
@@ -113,6 +114,7 @@ Select.prototype.onscrollend = function () {
     return
   }
   var m = is.direction == 1 ? Math.floor : Math.ceil
+  m = hasTouch? Math.round : m
   var dest = this.rowHeight * m(y/this.rowHeight)
   is.scrollTo(dest, 300)
 }
