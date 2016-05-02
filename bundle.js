@@ -442,6 +442,7 @@
 	var domify = __webpack_require__(7)
 	var _ = __webpack_require__(8)
 	var Iscroll = __webpack_require__(13)
+	var hasTouch = __webpack_require__(39)
 	
 	/**
 	 * Init select with `el` and optional option
@@ -553,6 +554,7 @@
 	    return
 	  }
 	  var m = is.direction == 1 ? Math.floor : Math.ceil
+	  m = hasTouch? Math.round : m
 	  var dest = this.rowHeight * m(y/this.rowHeight)
 	  is.scrollTo(dest, 300)
 	}
