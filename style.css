@@ -12,6 +12,7 @@
   margin: 0px;
 }
 .scroll-select li {
+  user-select: none;
   padding: 0px;
   list-style: none;
   text-align: center;
