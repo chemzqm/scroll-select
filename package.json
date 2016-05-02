@@ -62,5 +62,6 @@
     "iscroll": "iscroll-component",
     "dom": "dom-easy",
     "emitter": "component-emitter"
-  }
+  },
+  "style": "style.css"
 }
