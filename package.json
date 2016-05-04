@@ -57,7 +57,7 @@
     "dom-easy": "^1.1.1",
     "domify": "^1.4.0",
     "has-touch": "^1.0.1",
-    "iscroll-component": "^1.6.0"
+    "iscroll-component": "^1.6.2"
   },
   "browser": {
     "iscroll": "iscroll-component",
