@@ -1,0 +1,36 @@
+.scroll-select-container {
+  height: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  line-height: 30px;
+  position: relative;
+}
+.scroll-select-container ul{
+  padding: 60px 0;
+}
+.scroll-select-container .scroll-select {
+  margin: 0px;
+}
+.scroll-select li {
+  user-select: none;
+  padding: 0px;
+  list-style: none;
+  text-align: center;
+  padding: 0 5px;
+}
+.scroll-select-container .scroll-select-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,0.6))
+}
+.scroll-select-container .scroll-select-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255,255,0.6))
+}

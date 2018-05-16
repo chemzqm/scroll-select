@@ -7,7 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "make test-coveralls"
+    "test": "make test-coveralls",
+    "build":"webpack",
+    "build:es5-lib":"webpack --config webpack.config.es5.js"
   },
   "repository": {
     "type": "git",
