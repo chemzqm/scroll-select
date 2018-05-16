@@ -4,11 +4,28 @@ Select item with scroll.
 
 [demo](https://chemzqm.github.io/scroll-select)
 
+The local example for this project have 2 different version , one is for es6 , other one is for es5 ,
+those are in the example folder.
+
 ## Install
+
+Using npm:
 
     npm i scroll-select -S
 
+Using with es5 /Including by link & script tag:
+
+(those files your need include is at /example/es5/scroll-select/ )
+    
+``` html
+<link rel="stylesheet" type="text/css" href="scroll-select.css">
+<script src="scroll-select.js"></script>
+```
+
+
 ## Usage
+
+if your include this lib by script tag, you should remove the ```var Select = require("scroll-select")```
 
 ``` js
 var Select = require("scroll-select")
@@ -82,3 +99,9 @@ Get/Set the value
   DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
   TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE
   OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  
+## CONTRIBUTION
+
+   **2018.05.16 :**
+   [NorthBei](https://github.com/NorthBei) help to build this project to be a single lib,
+   let this project can incldue in html file separately.

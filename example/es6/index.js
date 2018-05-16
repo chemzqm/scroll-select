@@ -1,5 +1,5 @@
-require('../style.css')
-var Select = require('..')
+require('../../style.css')
+var Select = require('../../')
 
 var el = document.getElementById('select')
 
