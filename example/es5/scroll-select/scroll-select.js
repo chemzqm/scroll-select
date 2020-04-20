@@ -64,6 +64,7 @@ window["Select"] =
 	  var container = this.container = create('div', 'scroll-select-container')
 	  el.appendChild(this.container)
 	  this.rowHeight = opt.rowHeight || 30
+	  this.select_id= el.id
 	  var data = opt.data || []
 	  var main = create('div')
 	  container.appendChild(main)
