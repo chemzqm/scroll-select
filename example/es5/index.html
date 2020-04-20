@@ -11,15 +11,16 @@
     <link rel="stylesheet" href="./style.css" type="text/css" media="all" />
   </head>
   <body>
-    <button id="rebuild">rebuild</button>
-    <button id="prev">prev</button>
-    <button id="next">next</button>
-    <button id="unbind">unbind</button>
-    <div id="select">
-    </div>
-    <!-- should include scroll-select.css first -->
+    <select class="scrollable-select" select-id="select_demo">
+        <option value="option0">Option 0</option>
+        <option value="option1" selected>Option 1</option>
+        <option value="option2">Option 2</option>
+    </select>
+    <!-- Add jquery before all -->
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <!-- should include scroll-select.css second -->
     <link rel="stylesheet" href="./scroll-select/scroll-select.css" type="text/css" media="all" />
-    <!-- should include scroll-select.js second -->
+    <!-- should include scroll-select.js third -->
     <script src="./scroll-select/scroll-select.js" type="text/javascript" charset="utf-8"></script>
     <!-- at last , is your code -->
     <script src="./index.js" type="text/javascript" charset="utf-8"></script>
