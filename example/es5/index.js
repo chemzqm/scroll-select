@@ -7,10 +7,10 @@ $(document).ready(function () {
         $(this).after('<div id="' + selectId + '" class="scrollable_select_div"></div>')
         $('#' + selectId).append(
                 '<div class="select_arrow">' +
-                    '<button id="rebuild">rebuild</button>' + 
-                    '<button id="prev">prev</button>' + 
-                    '<button id="next">next</button>' +
-                    '<button id="unbind">unbind</button>' +
+                    '<button id="rebuild_' + selectId + '">rebuild</button>' + 
+                    '<button id="prev_' + selectId + '">prev</button>' + 
+                    '<button id="next_' + selectId + '">next</button>' +
+                    '<button id="unbind_' + selectId + '">unbind</button>' +
                 '</div>')
 
         let el = document.getElementById(selectId)
